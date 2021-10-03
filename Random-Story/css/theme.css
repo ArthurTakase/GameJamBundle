@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.theme-dark {
+  --font-color: #dcddde;
+	--background-light: #36393f;
+	--background-dark: #2f3136;
+	--button-font: #ffffff;
+	--button-background: #7289da;
+	--miniature-background: #40444b;
+	--header-text: white;
+	--header-background: #202225;
+	--date-color: gray;
+	--scroll-text: gray;
+	--shadow-profile: 12px;
+  --shadow-dice: #24262a;
+}
+
+.theme-light {
+	--font-color: #36393f;
+	--background-light: White;
+	--background-dark: #f2f3f5;
+	--button-font: White;
+	--button-background: #36393f;
+	--miniature-background: #f2f3f5;
+	--reseaux-background: White;
+	--header-text: #36393f;
+	--header-background: #DADCDF;
+	--date-color: White;
+	--scroll-text: gray;
+	--shadow-profile: 8px;
+  --shadow-dice: #b5b9bd;
+}
