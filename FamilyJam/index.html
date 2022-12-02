@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8" />
+
+</head>
+
+<body>
+    <main>
+    </main>
+    <script src="js/frames.js"></script>
+    <script src="js/sketch.js"></script>
+
+    <div id="triggers">
+        <div class="trigger" onclick="pictures.push(camera.get())" title="[Space] take picture">📷</div>
+        <div class="trigger" onclick="filterID = (filterID + 1) % (filters.length + 1)" title="[T] next filter">✨</div>
+        <div class="trigger" onclick="nextFrame()" title="[G] next frame layout">🖼️</div>
+        <div class="trigger" onclick="nextFrameIsShow = !nextFrameIsShow" title="[F] hide/show next frame">🫥</div>
+        <div class="trigger" onclick="flipCamera()" title="[V] Flip camera">🔄</div>
+        <div class="trigger" onclick="pictures = []" title="[R] clear canvas">🗑️</div>
+        <div class="trigger" onclick="saveCanvas(canvas, 'family.jpg');" title="[S] save picture">💾</div>
+    </div>
+</body>
+
+</html>
